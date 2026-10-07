@@ -1,3 +1,24 @@
-title: Python Journey
+title: All In
 description: From zero to Python master
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "air"   # 색상 테마: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "having-all"
+  bio: "파이썬 마스터를 향해 매일 기록합니다"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/having-all"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      toc: true
