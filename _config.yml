@@ -12,7 +12,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/having-all"
+      url: "https://github.com/having-all/python_journey"
 
 defaults:
   - scope:
